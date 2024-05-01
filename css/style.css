@@ -49,7 +49,7 @@ h1 {
 main > div {
     display: flex;
     margin-top: 6%;
-    gap: 600px;
+    gap: 800px;
     font-size: 20pt;
 }
 
