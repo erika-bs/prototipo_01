@@ -4,7 +4,7 @@
 
 
 header {
-    background-image: url("img/mcr.png");
+    background-image: url("./img/mcr.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -78,16 +78,16 @@ h2 {
 }
 
 .first-pic {
-    background-image: url("img/revenge.webp");
+    background-image: url("./img/revenge.webp");
     height: 300px;
 }
 
 .second-pic {
-    background-image: url("img/gerard.jpg");
+    background-image: url("./img/gerard.jpg");
 }
 
 .third-pic {
-    background-image: url("img/danger_days.png");
+    background-image: url("./img/danger_days.png");
     height: 300px;
     margin-top:20px;
 }
