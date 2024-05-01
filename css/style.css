@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12+Charted&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jacquard+12+Charted&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jacquard+12+Charted&family=Jersey+15&family=Oswald:wght@200..700&display=swap');
+
+
+header {
+    background-image: url("/img/mcr.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 600px;
+}
+
+.logo {
+    width: 200px;
+    margin-top:3%;
+}
+
+.color {
+    color: white;
+}
+
+.font-1{
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.font-2{
+    font-family:"Jacquard 12 Charted", system-ui;
+}
+
+.left {
+    margin-left: 10%;
+}
+
+.div-1 {
+    margin-bottom: 8%;
+}
+
+.div-3 {
+    margin-top:15%;
+}
+
+main > div {
+    display: flex;
+    margin-top: 6%;
+    gap: 600px;
+    font-size: 20pt;
+}
+
+.div-4 {
+    margin-left: 10%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30pt;
+    margin-top: 3%;
+    letter-spacing: 20px;
+    margin-bottom: 30px;
+}
+
+.container-shape {
+    display: grid;
+    grid-template-columns: repeat(3,250px);
+    justify-content: center;
+    grid-template-rows:550px 550px 550px;
+    gap: 20px;
+    height: 600px;
+}
+
+.first-pic {
+    background-image: url("");
+}
+
+.pic {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.first-pic {
+    background-image: url("/img/revenge.webp");
+
+    height: 300px;
+}
+
+.second-pic {
+    background-image: url("/img/gerard.jpg");
+}
+
+.third-pic {
+    background-image: url("/img/danger_days.png");
+    height: 300px;
+    margin-top:20px;
+}
+
+.text {
+    padding: 20px;
+    text-align: justify;
+    font-family: "Jersey 15", sans-serif;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: "Jersey 15", sans-serif;
+}
