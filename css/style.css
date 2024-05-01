@@ -70,9 +70,6 @@ h2 {
     height: 600px;
 }
 
-.first-pic {
-    background-image: url("");
-}
 
 .pic {
     background-position: center;
@@ -82,7 +79,6 @@ h2 {
 
 .first-pic {
     background-image: url("img/revenge.webp");
-
     height: 300px;
 }
 
